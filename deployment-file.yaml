@@ -1,5 +1,3 @@
 template-file-path: cfn-template.yaml
-parameters:
-  MyRoleName: TestValue2
-tags:
-  funKey: funValue
+parameters: {}
+tags: {}
