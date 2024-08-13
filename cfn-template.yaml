@@ -1,11 +1,3 @@
-Parameters:
-  MyRoleName:
-    Type: String
-
-Resources:
-  NullResource:
-    Type: AWS::CloudFormation::WaitConditionHandle
-
-Outputs:
-  MyOutput:
-    Value: !Ref MyRoleName
+template-file-path: deployment-file.yaml
+parameters: {}
+tags: {}
