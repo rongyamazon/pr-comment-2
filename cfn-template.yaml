@@ -5,7 +5,81 @@ Parameters:
 Resources:
   NullResource:
     Type: AWS::CloudFormation::WaitConditionHandle
-
+  SSM1:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM2:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM3:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM4:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM5:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM6:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM7:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM8:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM9:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM10:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM11:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM12:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM13:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM14:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
+  SSM15:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: Test1
 Outputs:
   MyOutput2:
     Value: !Ref MyRoleName
