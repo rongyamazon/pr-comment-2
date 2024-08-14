@@ -3,8 +3,8 @@ Parameters:
     Type: String
 
 Resources:
-  NullResource:
-    Type: AWS::CloudFormation::WaitConditionHandle
+  S3Resource:
+    Type: AWS::S3::Bucket
 
 Outputs:
   MyOutput2:
